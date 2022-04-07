@@ -12,7 +12,8 @@ from rasterio.features import bounds as featureBounds
 
 from rio_tiler.constants import WEB_MERCATOR_TMS, WGS84_CRS
 from rio_tiler.errors import InvalidBandName
-from rio_tiler.io import COGReader, MultiBandReader
+from rio_tiler_fs.reader import COGReader
+from rio_tiler.io import  MultiBandReader
 from rio_tiler_pds.sentinel.utils import s2_sceneid_parser
 from rio_tiler_pds.utils import get_object
 
