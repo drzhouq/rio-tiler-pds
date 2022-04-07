@@ -19,7 +19,8 @@ from rio_tiler.errors import (
     TileOutsideBounds,
 )
 from rio_tiler.expression import apply_expression
-from rio_tiler.io import COGReader, MultiBandReader
+from rio_tiler_fs.reader import COGReader
+from rio_tiler.io import  MultiBandReader
 from rio_tiler.models import ImageData
 from rio_tiler.tasks import multi_arrays
 from rio_tiler.utils import pansharpening_brovey
